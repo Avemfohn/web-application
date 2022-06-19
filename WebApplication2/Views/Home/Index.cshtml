@@ -1,0 +1,36 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Site.css">
+    <title>Home</title>
+</head>
+
+<body id="section-1-gradient">
+    @*<nav>
+            <h2 style="text-align: center;">WELCOME</h2>
+            <ul class="menu">
+                <li class="menu"><a href="home.html">Home</a></li>
+                <li class="menu"><a href="Reservation.html">Reservation</a></li>
+                <li class="menu"><a href="menu.html">Menu</a></li>
+                <li class="menu"><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>*@
+    <br />
+    <img src="~/img/Creative-And-Elegant-Restaurant-Banner-Designs.jpg" style="width:100%;" />
+    <ul class="menu">
+    <li>@Html.ActionLink("Campaign", "Index", "Campaign")</li>
+        <br />
+    <li>@Html.ActionLink("Special", "Index", "Special")</li>
+        <br />
+    <li>@Html.ActionLink("Workers", "Index", "Workers")</li>
+        <br />
+        </ul>
+</body>
+@*<footer>
+    <p class="footsy"><a href="http://www.iku.edu.tr">IKU</a></p>
+</footer>*@
+</html>

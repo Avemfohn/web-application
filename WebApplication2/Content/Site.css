@@ -1,0 +1,78 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+.menu {
+    letter-spacing: 0.3em;
+    word-spacing: 0.2em;
+    margin: 10px;
+    padding-left: 25px;
+    list-style: none;
+}
+
+    .menu a {
+        color: black;
+        text-decoration: none;
+        font-family: Tahoma, Verdana,Courier, serif;
+        font-size: 12px;
+    }
+
+ul.menu li {
+    list-style: none;
+    float: left;
+}
+
+.menu a:hover {
+    background-color: yellow;
+    text-decoration: underline;
+}
+
+#section-1-gradient {
+    background: linear-gradient(#076DFF,#65a5ff);
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+h3.contact {
+    font-style: italic;
+    color: green;
+}
+
+p.contact {
+    font-style: italic;
+    color: cornsilk;
+}
+
+footer.footsy p {
+    color: blue;
+    text-decoration: underline;
+}
+
+#example1 {
+    background: url(mountain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../img/back.jpg');
+}
